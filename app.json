@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Deadline Flow",
+    "slug": "deadline-flow",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#0A0A0F"
+    },
+    "android": {
+      "package": "com.deadlineflow.app",
+      "versionCode": 1,
+      "permissions": [
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE",
+        "POST_NOTIFICATIONS"
+      ]
+    },
+    "plugins": ["expo-notifications"]
+  }
+}
